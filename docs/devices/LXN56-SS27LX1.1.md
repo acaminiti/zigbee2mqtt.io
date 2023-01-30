@@ -1,6 +1,6 @@
 ---
 title: "Zemismart LXN56-SS27LX1.1 control via MQTT"
-description: "Integrate your Zemismart LXN56-SS27LX1.1 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Zemismart LXN56-SS27LX1.1 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-06-12T19:37:13Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | LXN56-SS27LX1.1  |
-| Vendor  | Zemismart  |
+| Vendor  | [Zemismart](/supported-devices/#v=Zemismart)  |
 | Description | Smart light switch - 2 gang with neutral wire |
 | Exposes | switch (state), linkquality |
 | Picture | ![Zemismart LXN56-SS27LX1.1](https://www.zigbee2mqtt.io/images/devices/LXN56-SS27LX1.1.jpg) |

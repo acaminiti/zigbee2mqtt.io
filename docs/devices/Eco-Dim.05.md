@@ -1,6 +1,6 @@
 ---
 title: "EcoDim Eco-Dim.05 control via MQTT"
-description: "Integrate your EcoDim Eco-Dim.05 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your EcoDim Eco-Dim.05 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | Eco-Dim.05  |
-| Vendor  | EcoDim  |
+| Vendor  | [EcoDim](/supported-devices/#v=EcoDim)  |
 | Description | LED dimmer duo 2x 0-100W |
 | Exposes | light (state, brightness), linkquality |
 | Picture | ![EcoDim Eco-Dim.05](https://www.zigbee2mqtt.io/images/devices/Eco-Dim.05.jpg) |

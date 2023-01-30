@@ -1,6 +1,6 @@
 ---
 title: "Gledopto GL-SD-001 control via MQTT"
-description: "Integrate your Gledopto GL-SD-001 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Gledopto GL-SD-001 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,9 +16,9 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | GL-SD-001  |
-| Vendor  | Gledopto  |
+| Vendor  | [Gledopto](/supported-devices/#v=Gledopto)  |
 | Description | Zigbee triac AC dimmer |
-| Exposes | light (state, brightness), effect, linkquality |
+| Exposes | light (state, brightness), effect, power_on_behavior, linkquality |
 | Picture | ![Gledopto GL-SD-001](https://www.zigbee2mqtt.io/images/devices/GL-SD-001.jpg) |
 
 
@@ -74,6 +74,13 @@ Value will **not** be published in the state.
 It's not possible to read (`/get`) this value.
 To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"effect": NEW_VALUE}`.
 The possible values are: `blink`, `breathe`, `okay`, `channel_change`, `finish_effect`, `stop_effect`.
+
+### Power_on_behavior (enum)
+Controls the behavior when the device is powered on after power loss.
+Value can be found in the published state on the `power_on_behavior` property.
+To read (`/get`) the value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"power_on_behavior": ""}`.
+To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"power_on_behavior": NEW_VALUE}`.
+The possible values are: `off`, `on`, `toggle`, `previous`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).

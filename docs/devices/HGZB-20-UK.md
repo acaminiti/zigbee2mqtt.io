@@ -1,6 +1,6 @@
 ---
 title: "Nue / 3A HGZB-20-UK control via MQTT"
-description: "Integrate your Nue / 3A HGZB-20-UK via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Nue / 3A HGZB-20-UK via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-11-09T18:37:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | HGZB-20-UK  |
-| Vendor  | Nue / 3A  |
+| Vendor  | [Nue / 3A](/supported-devices/#v=Nue%20%2F%203A)  |
 | Description | Power plug |
 | Exposes | switch (state), linkquality |
 | Picture | ![Nue / 3A HGZB-20-UK](https://www.zigbee2mqtt.io/images/devices/HGZB-20-UK.jpg) |

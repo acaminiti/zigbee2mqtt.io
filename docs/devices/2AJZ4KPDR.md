@@ -1,6 +1,6 @@
 ---
 title: "Konke 2AJZ4KPDR control via MQTT"
-description: "Integrate your Konke 2AJZ4KPDR via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Konke 2AJZ4KPDR via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-11-09T18:37:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | 2AJZ4KPDR  |
-| Vendor  | Konke  |
+| Vendor  | [Konke](/supported-devices/#v=Konke)  |
 | Description | Contact sensor |
 | Exposes | contact, battery_low, tamper, battery, linkquality |
 | Picture | ![Konke 2AJZ4KPDR](https://www.zigbee2mqtt.io/images/devices/2AJZ4KPDR.jpg) |

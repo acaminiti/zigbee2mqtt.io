@@ -1,6 +1,6 @@
 ---
 title: "Sunricher SR-ZG9100A-S control via MQTT"
-description: "Integrate your Sunricher SR-ZG9100A-S via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Sunricher SR-ZG9100A-S via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-01-31T22:24:43Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SR-ZG9100A-S  |
-| Vendor  | Sunricher  |
+| Vendor  | [Sunricher](/supported-devices/#v=Sunricher)  |
 | Description | Zigbee AC in wall switch single-line |
 | Exposes | switch (state), linkquality |
 | Picture | ![Sunricher SR-ZG9100A-S](https://www.zigbee2mqtt.io/images/devices/SR-ZG9100A-S.jpg) |

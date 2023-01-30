@@ -1,6 +1,6 @@
 ---
-title: "Paul Neuhaus NLG-RGBW light control via MQTT"
-description: "Integrate your Paul Neuhaus NLG-RGBW light via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+title: "Paul Neuhaus NLG-RGBW_light control via MQTT"
+description: "Integrate your Paul Neuhaus NLG-RGBW_light via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-08-11T22:17:44Z
 pageClass: device-page
 ---
@@ -11,15 +11,15 @@ pageClass: device-page
 <!-- Do not use h1 or h2 heading within "## Notes"-Section. -->
 <!-- !!!! -->
 
-# Paul Neuhaus NLG-RGBW light
+# Paul Neuhaus NLG-RGBW_light
 
 |     |     |
 |-----|-----|
-| Model | NLG-RGBW light  |
-| Vendor  | Paul Neuhaus  |
-| Description | Various RGBW lights (e.g. 100.111.57) |
-| Exposes | light (state, brightness, color_temp, color_temp_startup, color_xy), effect, linkquality |
-| Picture | ![Paul Neuhaus NLG-RGBW light](https://www.zigbee2mqtt.io/images/devices/NLG-RGBW-light.jpg) |
+| Model | NLG-RGBW_light  |
+| Vendor  | [Paul Neuhaus](/supported-devices/#v=Paul%20Neuhaus)  |
+| Description | Various RGBW lights (e.g. 100.110.39) |
+| Exposes | light (state, brightness, color_temp, color_temp_startup, color_xy), effect, power_on_behavior, linkquality |
+| Picture | ![Paul Neuhaus NLG-RGBW_light](https://www.zigbee2mqtt.io/images/devices/NLG-RGBW_light.jpg) |
 
 
 <!-- Notes BEGIN: You can edit here. Add "## Notes" headline if not already present. -->
@@ -79,6 +79,13 @@ Value will **not** be published in the state.
 It's not possible to read (`/get`) this value.
 To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"effect": NEW_VALUE}`.
 The possible values are: `blink`, `breathe`, `okay`, `channel_change`, `finish_effect`, `stop_effect`.
+
+### Power_on_behavior (enum)
+Controls the behavior when the device is powered on after power loss.
+Value can be found in the published state on the `power_on_behavior` property.
+To read (`/get`) the value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"power_on_behavior": ""}`.
+To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"power_on_behavior": NEW_VALUE}`.
+The possible values are: `off`, `on`, `toggle`, `previous`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).

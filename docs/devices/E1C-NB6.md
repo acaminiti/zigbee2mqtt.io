@@ -1,6 +1,6 @@
 ---
 title: "Sengled E1C-NB6 control via MQTT"
-description: "Integrate your Sengled E1C-NB6 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Sengled E1C-NB6 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-01-14T19:34:25Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | E1C-NB6  |
-| Vendor  | Sengled  |
+| Vendor  | [Sengled](/supported-devices/#v=Sengled)  |
 | Description | Smart plug |
 | Exposes | switch (state), linkquality |
 | Picture | ![Sengled E1C-NB6](https://www.zigbee2mqtt.io/images/devices/E1C-NB6.jpg) |

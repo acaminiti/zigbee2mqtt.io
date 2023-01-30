@@ -1,6 +1,6 @@
 ---
 title: "Feibit SLS301ZB_2 control via MQTT"
-description: "Integrate your Feibit SLS301ZB_2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Feibit SLS301ZB_2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-04-08T17:49:06Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SLS301ZB_2  |
-| Vendor  | Feibit  |
+| Vendor  | [Feibit](/supported-devices/#v=Feibit)  |
 | Description | Smart light switch - 2 gang |
 | Exposes | switch (state), linkquality |
 | Picture | ![Feibit SLS301ZB_2](https://www.zigbee2mqtt.io/images/devices/SLS301ZB_2.jpg) |

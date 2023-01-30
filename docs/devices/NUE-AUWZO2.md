@@ -1,6 +1,6 @@
 ---
 title: "Nue / 3A NUE-AUWZO2 control via MQTT"
-description: "Integrate your Nue / 3A NUE-AUWZO2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Nue / 3A NUE-AUWZO2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-12-08T09:20:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | NUE-AUWZO2  |
-| Vendor  | Nue / 3A  |
+| Vendor  | [Nue / 3A](/supported-devices/#v=Nue%20%2F%203A)  |
 | Description | Smart Zigbee double power point |
 | Exposes | switch (state), linkquality |
 | Picture | ![Nue / 3A NUE-AUWZO2](https://www.zigbee2mqtt.io/images/devices/NUE-AUWZO2.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "JetHome WS7 control via MQTT"
-description: "Integrate your JetHome WS7 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your JetHome WS7 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-11-30T20:10:17
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | WS7  |
-| Vendor  | JetHome  |
+| Vendor  | [JetHome](/supported-devices/#v=JetHome)  |
 | Description | 3-ch battery discrete input module |
 | Exposes | battery, voltage, action, linkquality |
 | Picture | ![JetHome WS7](https://www.zigbee2mqtt.io/images/devices/WS7.jpg) |

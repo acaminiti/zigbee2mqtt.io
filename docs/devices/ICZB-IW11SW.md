@@ -1,6 +1,6 @@
 ---
 title: "iCasa ICZB-IW11SW control via MQTT"
-description: "Integrate your iCasa ICZB-IW11SW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your iCasa ICZB-IW11SW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-11-09T18:37:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ICZB-IW11SW  |
-| Vendor  | iCasa  |
+| Vendor  | [iCasa](/supported-devices/#v=iCasa)  |
 | Description | Zigbee 3.0 AC switch |
 | Exposes | switch (state), linkquality |
 | Picture | ![iCasa ICZB-IW11SW](https://www.zigbee2mqtt.io/images/devices/ICZB-IW11SW.jpg) |

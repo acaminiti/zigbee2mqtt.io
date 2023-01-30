@@ -1,6 +1,6 @@
 ---
 title: "ORVIBO SM10ZW control via MQTT"
-description: "Integrate your ORVIBO SM10ZW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your ORVIBO SM10ZW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-03-16T20:41:09Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SM10ZW  |
-| Vendor  | ORVIBO  |
+| Vendor  | [ORVIBO](/supported-devices/#v=ORVIBO)  |
 | Description | Door or window contact switch |
 | Exposes | contact, battery_low, tamper, battery, linkquality |
 | Picture | ![ORVIBO SM10ZW](https://www.zigbee2mqtt.io/images/devices/SM10ZW.jpg) |

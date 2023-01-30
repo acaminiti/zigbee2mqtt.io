@@ -1,6 +1,6 @@
 ---
 title: "J.XUAN PRZ01 control via MQTT"
-description: "Integrate your J.XUAN PRZ01 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your J.XUAN PRZ01 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-05-30T19:17:03Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | PRZ01  |
-| Vendor  | J.XUAN  |
+| Vendor  | [J.XUAN](/supported-devices/#v=J.XUAN)  |
 | Description | Human body movement sensor |
 | Exposes | occupancy, battery_low, battery, linkquality |
 | Picture | ![J.XUAN PRZ01](https://www.zigbee2mqtt.io/images/devices/PRZ01.jpg) |

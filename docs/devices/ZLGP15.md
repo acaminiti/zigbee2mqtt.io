@@ -1,6 +1,6 @@
 ---
 title: "Legrand ZLGP15 control via MQTT"
-description: "Integrate your Legrand ZLGP15 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Legrand ZLGP15 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-09-02T18:14:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ZLGP15  |
-| Vendor  | Legrand  |
+| Vendor  | [Legrand](/supported-devices/#v=Legrand)  |
 | Description | Wireless and batteryless 4 scenes control |
 | Exposes | action, linkquality |
 | Picture | ![Legrand ZLGP15](https://www.zigbee2mqtt.io/images/devices/ZLGP15.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "Leedarson 6ARCZABZH control via MQTT"
-description: "Integrate your Leedarson 6ARCZABZH via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Leedarson 6ARCZABZH via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-01-14T19:34:25Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | 6ARCZABZH  |
-| Vendor  | Leedarson  |
+| Vendor  | [Leedarson](/supported-devices/#v=Leedarson)  |
 | Description | 4-Key Remote Controller |
 | Exposes | battery, action, linkquality |
 | Picture | ![Leedarson 6ARCZABZH](https://www.zigbee2mqtt.io/images/devices/6ARCZABZH.jpg) |

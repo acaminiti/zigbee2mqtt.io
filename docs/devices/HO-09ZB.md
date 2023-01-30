@@ -1,6 +1,6 @@
 ---
 title: "iHORN HO-09ZB control via MQTT"
-description: "Integrate your iHORN HO-09ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your iHORN HO-09ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-05-19T20:48:40Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | HO-09ZB  |
-| Vendor  | iHORN  |
+| Vendor  | [iHORN](/supported-devices/#v=iHORN)  |
 | Description | Door or window contact switch |
 | Exposes | contact, battery_low, tamper, battery, linkquality |
 | Picture | ![iHORN HO-09ZB](https://www.zigbee2mqtt.io/images/devices/HO-09ZB.jpg) |

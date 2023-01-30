@@ -1,6 +1,6 @@
 ---
 title: "UseeLink SM-SO306EZ-10 control via MQTT"
-description: "Integrate your UseeLink SM-SO306EZ-10 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your UseeLink SM-SO306EZ-10 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-30T11:31:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SM-SO306EZ-10  |
-| Vendor  | UseeLink  |
+| Vendor  | [UseeLink](/supported-devices/#v=UseeLink)  |
 | Description | 4 gang switch, with USB |
 | Exposes | switch (state), linkquality |
 | Picture | ![UseeLink SM-SO306EZ-10](https://www.zigbee2mqtt.io/images/devices/SM-SO306EZ-10.jpg) |

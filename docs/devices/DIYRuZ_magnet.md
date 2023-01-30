@@ -1,6 +1,6 @@
 ---
 title: "DIYRuZ DIYRuZ_magnet control via MQTT"
-description: "Integrate your DIYRuZ DIYRuZ_magnet via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your DIYRuZ DIYRuZ_magnet via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-11-09T18:37:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | DIYRuZ_magnet  |
-| Vendor  | DIYRuZ  |
+| Vendor  | [DIYRuZ](/supported-devices/#v=DIYRuZ)  |
 | Description | [DIYRuZ contact sensor](https://modkam.ru/?p=1220) |
 | Exposes | battery, contact, linkquality |
 | Picture | ![DIYRuZ DIYRuZ_magnet](https://www.zigbee2mqtt.io/images/devices/DIYRuZ_magnet.jpg) |

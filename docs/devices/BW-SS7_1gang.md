@@ -1,6 +1,6 @@
 ---
 title: "BlitzWolf BW-SS7_1gang control via MQTT"
-description: "Integrate your BlitzWolf BW-SS7_1gang via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your BlitzWolf BW-SS7_1gang via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-02-28T13:58:01Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | BW-SS7_1gang  |
-| Vendor  | BlitzWolf  |
+| Vendor  | [BlitzWolf](/supported-devices/#v=BlitzWolf)  |
 | Description | Zigbee 3.0 smart light switch module 1 gang |
 | Exposes | switch (state), linkquality |
 | Picture | ![BlitzWolf BW-SS7_1gang](https://www.zigbee2mqtt.io/images/devices/BW-SS7_1gang.jpg) |

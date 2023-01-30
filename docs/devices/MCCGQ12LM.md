@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi MCCGQ12LM control via MQTT"
-description: "Integrate your Xiaomi MCCGQ12LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Xiaomi MCCGQ12LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-17T18:57:09Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | MCCGQ12LM  |
-| Vendor  | Xiaomi  |
+| Vendor  | [Xiaomi](/supported-devices/#v=Xiaomi)  |
 | Description | Aqara T1 door & window contact sensor |
 | Exposes | contact, battery, voltage, linkquality |
 | Picture | ![Xiaomi MCCGQ12LM](https://www.zigbee2mqtt.io/images/devices/MCCGQ12LM.jpg) |

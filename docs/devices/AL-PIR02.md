@@ -1,6 +1,6 @@
 ---
 title: "Sercomm AL-PIR02 control via MQTT"
-description: "Integrate your Sercomm AL-PIR02 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Sercomm AL-PIR02 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-02-04T20:38:05Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | AL-PIR02  |
-| Vendor  | Sercomm  |
+| Vendor  | [Sercomm](/supported-devices/#v=Sercomm)  |
 | Description | PIR motion sensor |
 | Exposes | occupancy, battery_low, tamper, battery, linkquality |
 | Picture | ![Sercomm AL-PIR02](https://www.zigbee2mqtt.io/images/devices/AL-PIR02.jpg) |

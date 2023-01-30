@@ -1,6 +1,6 @@
 ---
 title: "Sercomm SZ-DWS08 control via MQTT"
-description: "Integrate your Sercomm SZ-DWS08 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Sercomm SZ-DWS08 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-02-13T14:40:13Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SZ-DWS08  |
-| Vendor  | Sercomm  |
+| Vendor  | [Sercomm](/supported-devices/#v=Sercomm)  |
 | Description | Magnetic door & window contact sensor |
 | Exposes | contact, battery_low, tamper, temperature, battery, linkquality |
 | Picture | ![Sercomm SZ-DWS08](https://www.zigbee2mqtt.io/images/devices/SZ-DWS08.jpg) |

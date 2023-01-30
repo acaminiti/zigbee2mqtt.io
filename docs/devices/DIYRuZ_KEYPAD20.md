@@ -1,6 +1,6 @@
 ---
 title: "DIYRuZ DIYRuZ_KEYPAD20 control via MQTT"
-description: "Integrate your DIYRuZ DIYRuZ_KEYPAD20 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your DIYRuZ DIYRuZ_KEYPAD20 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-09-08T21:16:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | DIYRuZ_KEYPAD20  |
-| Vendor  | DIYRuZ  |
+| Vendor  | [DIYRuZ](/supported-devices/#v=DIYRuZ)  |
 | Description | [DiY 20 button keypad](http://modkam.ru/?p=1114) |
 | Exposes | battery, linkquality |
 | Picture | ![DIYRuZ DIYRuZ_KEYPAD20](https://www.zigbee2mqtt.io/images/devices/DIYRuZ_KEYPAD20.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "DIYRuZ FreePad_LeTV_8 control via MQTT"
-description: "Integrate your DIYRuZ FreePad_LeTV_8 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your DIYRuZ FreePad_LeTV_8 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-01T19:02:25Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | FreePad_LeTV_8  |
-| Vendor  | DIYRuZ  |
+| Vendor  | [DIYRuZ](/supported-devices/#v=DIYRuZ)  |
 | Description | [LeTV 8key FreePad mod](https://modkam.ru/?p=1791) |
 | Exposes | battery, action, switch_type, switch_actions, linkquality |
 | Picture | ![DIYRuZ FreePad_LeTV_8](https://www.zigbee2mqtt.io/images/devices/FreePad_LeTV_8.jpg) |

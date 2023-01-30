@@ -1,6 +1,6 @@
 ---
 title: "Technicolor XHK1-TC control via MQTT"
-description: "Integrate your Technicolor XHK1-TC via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Technicolor XHK1-TC via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | XHK1-TC  |
-| Vendor  | Technicolor  |
+| Vendor  | [Technicolor](/supported-devices/#v=Technicolor)  |
 | Description | Xfinity security keypad |
 | Exposes | battery, voltage, occupancy, battery_low, tamper, presence, contact, temperature, action_code, action_transaction, action_zone, action, linkquality |
 | Picture | ![Technicolor XHK1-TC](https://www.zigbee2mqtt.io/images/devices/XHK1-TC.jpg) |

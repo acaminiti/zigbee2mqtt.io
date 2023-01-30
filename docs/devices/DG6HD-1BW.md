@@ -1,6 +1,6 @@
 ---
 title: "Leviton DG6HD-1BW control via MQTT"
-description: "Integrate your Leviton DG6HD-1BW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Leviton DG6HD-1BW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-03-30T20:29:35Z
 pageClass: device-page
 ---
@@ -16,9 +16,9 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | DG6HD-1BW  |
-| Vendor  | Leviton  |
+| Vendor  | [Leviton](/supported-devices/#v=Leviton)  |
 | Description | Zigbee in-wall smart dimmer |
-| Exposes | light (state, brightness), linkquality |
+| Exposes | light (state, brightness), power_on_behavior, linkquality |
 | Picture | ![Leviton DG6HD-1BW](https://www.zigbee2mqtt.io/images/devices/DG6HD-1BW.jpg) |
 
 
@@ -61,6 +61,13 @@ To do this send a payload like below to `zigbee2mqtt/FRIENDLY_NAME/set`
   "brightness_step": 40 // Increases brightness by 40
 }
 ````
+
+### Power_on_behavior (enum)
+Controls the behavior when the device is powered on after power loss.
+Value can be found in the published state on the `power_on_behavior` property.
+To read (`/get`) the value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"power_on_behavior": ""}`.
+To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"power_on_behavior": NEW_VALUE}`.
+The possible values are: `off`, `on`, `toggle`, `previous`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).

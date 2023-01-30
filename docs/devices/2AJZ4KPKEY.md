@@ -1,6 +1,6 @@
 ---
 title: "Konke 2AJZ4KPKEY control via MQTT"
-description: "Integrate your Konke 2AJZ4KPKEY via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Konke 2AJZ4KPKEY via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-09-08T21:16:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | 2AJZ4KPKEY  |
-| Vendor  | Konke  |
+| Vendor  | [Konke](/supported-devices/#v=Konke)  |
 | Description | Multi-function button |
 | Exposes | battery, action, linkquality |
 | Picture | ![Konke 2AJZ4KPKEY](https://www.zigbee2mqtt.io/images/devices/2AJZ4KPKEY.jpg) |

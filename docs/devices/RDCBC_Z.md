@@ -1,6 +1,6 @@
 ---
 title: "SOHAN Electric RDCBC/Z control via MQTT"
-description: "Integrate your SOHAN Electric RDCBC/Z via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your SOHAN Electric RDCBC/Z via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-03-30T20:29:35Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | RDCBC/Z  |
-| Vendor  | SOHAN Electric  |
+| Vendor  | [SOHAN Electric](/supported-devices/#v=SOHAN%20Electric)  |
 | Description | DIN circuit breaker (1 pole / 2 poles) |
 | Exposes | switch (state), linkquality |
 | Picture | ![SOHAN Electric RDCBC/Z](https://www.zigbee2mqtt.io/images/devices/RDCBC-Z.jpg) |

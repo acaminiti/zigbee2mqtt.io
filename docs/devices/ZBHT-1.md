@@ -1,6 +1,6 @@
 ---
 title: "Smartenit ZBHT-1 control via MQTT"
-description: "Integrate your Smartenit ZBHT-1 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Smartenit ZBHT-1 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-05-11T17:09:57Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ZBHT-1  |
-| Vendor  | Smartenit  |
+| Vendor  | [Smartenit](/supported-devices/#v=Smartenit)  |
 | Description | Temperature & humidity sensor  |
 | Exposes | battery, temperature, humidity, linkquality |
 | Picture | ![Smartenit ZBHT-1](https://www.zigbee2mqtt.io/images/devices/ZBHT-1.jpg) |

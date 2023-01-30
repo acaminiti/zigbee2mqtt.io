@@ -1,6 +1,6 @@
 ---
 title: "Gledopto GL-C-008-2ID control via MQTT"
-description: "Integrate your Gledopto GL-C-008-2ID via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Gledopto GL-C-008-2ID via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-05-19T20:48:40Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | GL-C-008-2ID  |
-| Vendor  | Gledopto  |
+| Vendor  | [Gledopto](/supported-devices/#v=Gledopto)  |
 | Description | Zigbee LED Controller RGB+CCT (2 ID) |
 | Exposes | light (state, brightness, color_xy), light (state, brightness, color_temp, color_temp_startup), linkquality |
 | Picture | ![Gledopto GL-C-008-2ID](https://www.zigbee2mqtt.io/images/devices/GL-C-008-2ID.jpg) |

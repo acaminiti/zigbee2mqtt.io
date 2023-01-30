@@ -1,6 +1,6 @@
 ---
 title: "JAVIS JS-SLK2-ZB control via MQTT"
-description: "Integrate your JAVIS JS-SLK2-ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your JAVIS JS-SLK2-ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-11-01T12:47:02Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | JS-SLK2-ZB  |
-| Vendor  | JAVIS  |
+| Vendor  | [JAVIS](/supported-devices/#v=JAVIS)  |
 | Description | Intelligent biometric digital lock |
 | Exposes | battery, action, linkquality |
 | Picture | ![JAVIS JS-SLK2-ZB](https://www.zigbee2mqtt.io/images/devices/JS-SLK2-ZB.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "TuYa D3-DPWK-TY control via MQTT"
-description: "Integrate your TuYa D3-DPWK-TY via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your TuYa D3-DPWK-TY via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-08-11T22:17:44Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | D3-DPWK-TY  |
-| Vendor  | TuYa  |
+| Vendor  | [TuYa](/supported-devices/#v=TuYa)  |
 | Description | HVAC controller |
 | Exposes | climate (current_heating_setpoint, local_temperature, system_mode, running_state), linkquality |
 | Picture | ![TuYa D3-DPWK-TY](https://www.zigbee2mqtt.io/images/devices/D3-DPWK-TY.jpg) |

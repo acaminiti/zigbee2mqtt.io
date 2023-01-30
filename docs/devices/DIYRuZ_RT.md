@@ -1,6 +1,6 @@
 ---
 title: "DIYRuZ DIYRuZ_RT control via MQTT"
-description: "Integrate your DIYRuZ DIYRuZ_RT via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your DIYRuZ DIYRuZ_RT via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-06-27T13:26:08Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | DIYRuZ_RT  |
-| Vendor  | DIYRuZ  |
+| Vendor  | [DIYRuZ](/supported-devices/#v=DIYRuZ)  |
 | Description | [DiY CC2530 Zigbee 3.0 firmware](https://habr.com/ru/company/iobroker/blog/495926/) |
 | Exposes | switch (state), temperature, linkquality |
 | Picture | ![DIYRuZ DIYRuZ_RT](https://www.zigbee2mqtt.io/images/devices/DIYRuZ_RT.jpg) |

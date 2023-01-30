@@ -1,6 +1,6 @@
 ---
 title: "Lonsonho QS-Zigbee-D02-TRIAC-2C-LN control via MQTT"
-description: "Integrate your Lonsonho QS-Zigbee-D02-TRIAC-2C-LN via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Lonsonho QS-Zigbee-D02-TRIAC-2C-LN via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-08-20T20:24:49Z
 pageClass: device-page
 ---
@@ -16,9 +16,9 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | QS-Zigbee-D02-TRIAC-2C-LN  |
-| Vendor  | Lonsonho  |
+| Vendor  | [Lonsonho](/supported-devices/#v=Lonsonho)  |
 | Description | 2 gang smart dimmer switch module with neutral |
-| Exposes | light (state, brightness), linkquality |
+| Exposes | light (state, brightness, min_brightness), linkquality |
 | Picture | ![Lonsonho QS-Zigbee-D02-TRIAC-2C-LN](https://www.zigbee2mqtt.io/images/devices/QS-Zigbee-D02-TRIAC-2C-LN.jpg) |
 
 
@@ -40,7 +40,7 @@ Turn off the lights and then turn them on by holding the button for 10 seconds u
 ## Exposes
 
 ### Light (l1 endpoint)
-This light supports the following features: `state`, `brightness`.
+This light supports the following features: `state`, `brightness`, `min_brightness`.
 - `state`: To control the state publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"state_l1": "ON"}`, `{"state_l1": "OFF"}` or `{"state_l1": "TOGGLE"}`. To read the state send a message to `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"state_l1": ""}`.
 - `brightness`: To control the brightness publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"brightness_l1": VALUE}` where `VALUE` is a number between `0` and `254`. To read the brightness send a message to `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"brightness_l1": ""}`.
 
@@ -66,7 +66,7 @@ To do this send a payload like below to `zigbee2mqtt/FRIENDLY_NAME/set`
 ````
 
 ### Light (l2 endpoint)
-This light supports the following features: `state`, `brightness`.
+This light supports the following features: `state`, `brightness`, `min_brightness`.
 - `state`: To control the state publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"state_l2": "ON"}`, `{"state_l2": "OFF"}` or `{"state_l2": "TOGGLE"}`. To read the state send a message to `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"state_l2": ""}`.
 - `brightness`: To control the brightness publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"brightness_l2": VALUE}` where `VALUE` is a number between `0` and `254`. To read the brightness send a message to `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"brightness_l2": ""}`.
 

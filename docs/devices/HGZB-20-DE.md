@@ -1,6 +1,6 @@
 ---
 title: "Smart Home Pty HGZB-20-DE control via MQTT"
-description: "Integrate your Smart Home Pty HGZB-20-DE via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Smart Home Pty HGZB-20-DE via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | HGZB-20-DE  |
-| Vendor  | Smart Home Pty  |
+| Vendor  | [Smart Home Pty](/supported-devices/#v=Smart%20Home%20Pty)  |
 | Description | Power plug |
 | Exposes | switch (state), linkquality |
 | Picture | ![Smart Home Pty HGZB-20-DE](https://www.zigbee2mqtt.io/images/devices/HGZB-20-DE.jpg) |

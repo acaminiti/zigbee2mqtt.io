@@ -1,6 +1,6 @@
 ---
 title: "SONOFF SNZB-04 control via MQTT"
-description: "Integrate your SONOFF SNZB-04 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your SONOFF SNZB-04 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-07-10T21:02:48Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SNZB-04  |
-| Vendor  | SONOFF  |
+| Vendor  | [SONOFF](/supported-devices/#v=SONOFF)  |
 | Description | Contact sensor |
 | Exposes | contact, battery_low, battery, voltage, linkquality |
 | Picture | ![SONOFF SNZB-04](https://www.zigbee2mqtt.io/images/devices/SNZB-04.jpg) |

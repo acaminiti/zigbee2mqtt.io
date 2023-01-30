@@ -1,6 +1,6 @@
 ---
 title: "Custom devices (DiY) EFEKTA_ePWS control via MQTT"
-description: "Integrate your Custom devices (DiY) EFEKTA_ePWS via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Custom devices (DiY) EFEKTA_ePWS via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-10-30T12:58:50
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | EFEKTA_ePWS  |
-| Vendor  | Custom devices (DiY)  |
+| Vendor  | [Custom devices (DiY)](/supported-devices/#v=Custom%20devices%20(DiY))  |
 | Description | [Plant wattering sensor with e-ink display](https://efektalab.com/epws102) |
 | Exposes | soil_moisture, battery, temperature, linkquality |
 | Picture | ![Custom devices (DiY) EFEKTA_ePWS](https://www.zigbee2mqtt.io/images/devices/EFEKTA_ePWS.jpg) |

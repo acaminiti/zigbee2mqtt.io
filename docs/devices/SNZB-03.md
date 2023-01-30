@@ -1,6 +1,6 @@
 ---
 title: "SONOFF SNZB-03 control via MQTT"
-description: "Integrate your SONOFF SNZB-03 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your SONOFF SNZB-03 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-07-10T21:02:28Z
 pageClass: device-page
 ---
@@ -16,9 +16,9 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SNZB-03  |
-| Vendor  | SONOFF  |
+| Vendor  | [SONOFF](/supported-devices/#v=SONOFF)  |
 | Description | Motion sensor |
-| Exposes | occupancy, battery_low, tamper, battery, linkquality |
+| Exposes | occupancy, battery_low, battery, voltage, linkquality |
 | Picture | ![SONOFF SNZB-03](https://www.zigbee2mqtt.io/images/devices/SNZB-03.jpg) |
 | White-label | eWeLink RHK09 |
 
@@ -47,18 +47,18 @@ Value can be found in the published state on the `battery_low` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
 If value equals `true` battery_low is ON, if `false` OFF.
 
-### Tamper (binary)
-Indicates whether the device is tampered.
-Value can be found in the published state on the `tamper` property.
-It's not possible to read (`/get`) or write (`/set`) this value.
-If value equals `true` tamper is ON, if `false` OFF.
-
 ### Battery (numeric)
 Remaining battery in %.
 Value can be found in the published state on the `battery` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
 The minimal value is `0` and the maximum value is `100`.
 The unit of this value is `%`.
+
+### Voltage (numeric)
+Voltage of the battery in millivolts.
+Value can be found in the published state on the `voltage` property.
+It's not possible to read (`/get`) or write (`/set`) this value.
+The unit of this value is `mV`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).

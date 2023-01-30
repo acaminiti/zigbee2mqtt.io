@@ -1,6 +1,6 @@
 ---
 title: "DIYRuZ DIYRuZ_FreePad control via MQTT"
-description: "Integrate your DIYRuZ DIYRuZ_FreePad via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your DIYRuZ DIYRuZ_FreePad via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-05-19T20:48:40Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | DIYRuZ_FreePad  |
-| Vendor  | DIYRuZ  |
+| Vendor  | [DIYRuZ](/supported-devices/#v=DIYRuZ)  |
 | Description | [DiY 8/12/20 button keypad](http://modkam.ru/?p=1114) |
 | Exposes | battery, action, switch_type, switch_actions, linkquality |
 | Picture | ![DIYRuZ DIYRuZ_FreePad](https://www.zigbee2mqtt.io/images/devices/DIYRuZ_FreePad.jpg) |

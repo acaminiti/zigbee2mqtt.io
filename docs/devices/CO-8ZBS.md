@@ -1,6 +1,6 @@
 ---
 title: "Climax CO-8ZBS control via MQTT"
-description: "Integrate your Climax CO-8ZBS via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Climax CO-8ZBS via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-02-28T13:58:01Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | CO-8ZBS  |
-| Vendor  | Climax  |
+| Vendor  | [Climax](/supported-devices/#v=Climax)  |
 | Description | Smart carbon monoxide sensor |
 | Exposes | carbon_monoxide, battery_low, tamper, battery, linkquality |
 | Picture | ![Climax CO-8ZBS](https://www.zigbee2mqtt.io/images/devices/CO-8ZBS.jpg) |

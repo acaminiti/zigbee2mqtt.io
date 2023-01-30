@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi WXKG13LM control via MQTT"
-description: "Integrate your Xiaomi WXKG13LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Xiaomi WXKG13LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | WXKG13LM  |
-| Vendor  | Xiaomi  |
+| Vendor  | [Xiaomi](/supported-devices/#v=Xiaomi)  |
 | Description | Aqara T1 wireless mini switch |
 | Exposes | battery, voltage, action, linkquality |
 | Picture | ![Xiaomi WXKG13LM](https://www.zigbee2mqtt.io/images/devices/WXKG13LM.jpg) |
@@ -27,13 +27,9 @@ pageClass: device-page
 
 <!-- Notes END: Do not edit below this line -->
 
+## OTA updates
+This device supports OTA updates, for more information see [OTA updates](../guide/usage/ota_updates.md).
 
-## Options
-*[How to use device type specific configuration](../guide/configuration/devices-groups.md#specific-device-options)*
-
-* `temperature_precision`: Number of digits after decimal point for temperature, takes into effect on next report of device. The value must be a number with a minimum value of `0` and with a with a maximum value of `3`
-
-* `temperature_calibration`: Calibrates the temperature value (absolute offset), takes into effect on next report of device. The value must be a number.
 
 
 ## Exposes

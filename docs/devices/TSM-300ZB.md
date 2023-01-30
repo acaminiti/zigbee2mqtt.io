@@ -1,6 +1,6 @@
 ---
 title: "ShinaSystem TSM-300ZB control via MQTT"
-description: "Integrate your ShinaSystem TSM-300ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your ShinaSystem TSM-300ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-10-30T12:58:50
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | TSM-300ZB  |
-| Vendor  | ShinaSystem  |
+| Vendor  | [ShinaSystem](/supported-devices/#v=ShinaSystem)  |
 | Description | SiHAS temperature/humidity sensor |
 | Exposes | temperature, humidity, battery, voltage, linkquality |
 | Picture | ![ShinaSystem TSM-300ZB](https://www.zigbee2mqtt.io/images/devices/TSM-300ZB.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "Perenio PECMS01 control via MQTT"
-description: "Integrate your Perenio PECMS01 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Perenio PECMS01 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-11-30T20:10:17
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | PECMS01  |
-| Vendor  | Perenio  |
+| Vendor  | [Perenio](/supported-devices/#v=Perenio)  |
 | Description | Motion sensor |
 | Exposes | occupancy, battery_low, tamper, battery, linkquality |
 | Picture | ![Perenio PECMS01](https://www.zigbee2mqtt.io/images/devices/PECMS01.jpg) |
@@ -26,6 +26,9 @@ pageClass: device-page
 
 
 <!-- Notes END: Do not edit below this line -->
+
+## OTA updates
+This device supports OTA updates, for more information see [OTA updates](../guide/usage/ota_updates.md).
 
 
 

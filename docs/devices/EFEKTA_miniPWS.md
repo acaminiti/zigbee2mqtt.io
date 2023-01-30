@@ -1,6 +1,6 @@
 ---
 title: "Custom devices (DiY) EFEKTA_miniPWS control via MQTT"
-description: "Integrate your Custom devices (DiY) EFEKTA_miniPWS via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Custom devices (DiY) EFEKTA_miniPWS via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,9 +16,9 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | EFEKTA_miniPWS  |
-| Vendor  | Custom devices (DiY)  |
+| Vendor  | [Custom devices (DiY)](/supported-devices/#v=Custom%20devices%20(DiY))  |
 | Description | [Mini plant wattering sensor](http://efektalab.com/miniPWS) |
-| Exposes | soil_moisture, battery, linkquality |
+| Exposes | soil_moisture, battery, report_delay, linkquality |
 | Picture | ![Custom devices (DiY) EFEKTA_miniPWS](https://www.zigbee2mqtt.io/images/devices/EFEKTA_miniPWS.jpg) |
 
 
@@ -53,6 +53,14 @@ Value can be found in the published state on the `battery` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
 The minimal value is `0` and the maximum value is `100`.
 The unit of this value is `%`.
+
+### Report_delay (numeric)
+Adjust Report Delay, by default 60 minutes.
+Value can be found in the published state on the `report_delay` property.
+It's not possible to read (`/get`) this value.
+To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"report_delay": NEW_VALUE}`.
+The minimal value is `1` and the maximum value is `180`.
+The unit of this value is `min`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).

@@ -1,6 +1,6 @@
 ---
 title: "Bosch ISW-ZPR1-WP13 control via MQTT"
-description: "Integrate your Bosch ISW-ZPR1-WP13 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Bosch ISW-ZPR1-WP13 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ISW-ZPR1-WP13  |
-| Vendor  | Bosch  |
+| Vendor  | [Bosch](/supported-devices/#v=Bosch)  |
 | Description | Motion sensor |
 | Exposes | temperature, battery, occupancy, battery_low, tamper, linkquality |
 | Picture | ![Bosch ISW-ZPR1-WP13](https://www.zigbee2mqtt.io/images/devices/ISW-ZPR1-WP13.jpg) |

@@ -48,6 +48,9 @@ Published messages are **always** in a JSON format. Each device produces a diffe
 }
 ```
 
+## zigbee2mqtt/FRIENDLY_NAME/availability
+If ["Device-Availability"](../configuration/device-availability.md) is configured the online/offline status will be published when it changes.
+
 ## zigbee2mqtt/FRIENDLY_NAME/set
 Publishing messages to this topic allows you to control your Zigbee devices via MQTT. Only accepts JSON messages. An example to control a Philips Hue Go (7146060PH). How to control a specific device can be found in the *Exposes* section on the device page which can be accessed via ["Supported devices"](../../supported-devices/).
 
@@ -93,20 +96,22 @@ Example payload:
     "permit_join_timeout": 10, // Time in seconds till permit join is disabled, `undefined` in case of no timeout
     "config": {...}, // Will contain the complete Zigbee2MQTT config expect the network_key
     "config_schema": {...}, // Will contain the JSON schema of the config
-    "restart_required": false // Indicates wether Zigbee2MQTT needs to be restarted to apply options set through zigbee2mqtt/request/bridge/options
+    "restart_required": false // Indicates whether Zigbee2MQTT needs to be restarted to apply options set through zigbee2mqtt/request/bridge/options
 }
 ```
 
 ## zigbee2mqtt/bridge/state
-Contains the state of the bridge, payloads are:
+Contains the state of the bridge, this message is published as retained. Payloads are:
 * `online`: published when the bridge is running (on startup)
 * `offline`: published right before the bridge stops
+
+If `advanced.legacy_availability_payload` is set to `false` the payload will be a JSON object (`{"state":"online"}`/`{"state":"offline"}`).
 
 ## zigbee2mqtt/bridge/logging
 All Zigbee2MQTT logging is published to this topic in the form of `{"level": LEVEL, "message": MESSAGE}`, example: `{"level": "info", "message": "Zigbee: allowing new devices to join."}`.
 
 ## zigbee2mqtt/bridge/devices
-Contains the devices connected to the bridge.
+Contains the devices connected to the bridge, this message is published as retained.
 Whenever a devices joins or leaves this is republished.
 In case `supported` is `false`, `definition` will be `null`.
 Example payload:
@@ -118,7 +123,9 @@ Example payload:
         "type":"Router",
         "network_address":29159,
         "supported":true,
+        "disabled": false,
         "friendly_name":"my_plug",
+        "description":"this plug is in the kitchen",
         "endpoints":{"1":{"bindings":[],"configured_reportings":[],"clusters":{"input":["genOnOff","genBasic"],"output":[]}}},
         "definition":{
             "model":"ZNCZ02LM",
@@ -139,6 +146,7 @@ Example payload:
         "type":"Router",
         "network_address":57440,
         "supported":true,
+        "disabled": false,
         "friendly_name":"my_bulb",
         "endpoints":{"1":{"bindings":[],"configured_reportings":[],"clusters":{"input":["genOnOff","genBasic","genLevelCtrl"],"output":["genOta"]}}},
         "definition":{
@@ -173,6 +181,7 @@ Example payload:
         },
         "network_address":22160,
         "supported":false,
+        "disabled": false,
         "friendly_name":"my_sensor",
         "definition":null,
         "power_source":"Battery",
@@ -187,6 +196,7 @@ Example payload:
         "type":"Coordinator",
         "network_address":0,
         "supported":false,
+        "disabled": false,
         "endpoints":{"1":{"bindings":[],"configured_reportings":[],"clusters":{"input":[],"output":[]}}},
         "friendly_name":"Coordinator",
         "definition":null,
@@ -207,7 +217,7 @@ A device definition will always have an `exposes` and `options` property which a
 
 
 ## zigbee2mqtt/bridge/groups
-Contains the groups.
+Contains the groups, this message is published as retained.
 Whenever a group is added/removed or when devices are added/removed from a group this is republished.
 Example payload:
 
@@ -262,7 +272,7 @@ To allow joining for only a specific amount of time add the `time` property (in 
 
 #### zigbee2mqtt/bridge/request/health_check
 
-Allows to check wether Zigbee2MQTT is healthy. Payload has to be empty, example response: `{"data":{"healthy":true},"status":"ok"}`.
+Allows to check whether Zigbee2MQTT is healthy. Payload has to be empty, example response: `{"data":{"healthy":true},"status":"ok"}`.
 
 #### zigbee2mqtt/bridge/request/restart
 
@@ -289,6 +299,14 @@ Links are labelled with link quality (0..255) and active routes (listed by short
 #### zigbee2mqtt/bridge/request/extension/save
 
 See [User extensions](../../advanced/more/user_extensions.md).
+
+#### zigbee2mqtt/bridge/request/backup
+
+Creates a backup of the `data` folder (without the `data/log` directory). Payload has to be empty, example response: `{"data":{"zip":"WklHQkVFMk1RVFQuUk9DS1M="},"status":"ok"}`. The `zip` property represents a zip file encoded via Base64. Note that only adapters based on a Texas Instruments chip (CC2530/CC2531/CC2538/CC2652/CC1352) support a coordinator backup (`coordinator_backup.json`).
+
+#### zigbee2mqtt/bridge/request/install_code/add
+
+Allows to add an install code to the coordinator. Use this when you want to pair a Zigbee 3.0 devices which can only be paired with an install code. These devices typicaly have a QR code on it. When scanning this QR code you will get a code, e.g. `ZB10SG0D831018234800400000000000000000009035EAFFFE424793DLKAE3B287281CF11F550733A0CFC38AA31E802`. Publish this code to `zigbee2mqtt/bridge/request/install_code/add` with payload `{"value":"THE_CODE"}`. Example response: `{"data":{"value":"THE_CODE"},"status":"ok"}`.
 
 ### Device
 
@@ -327,8 +345,7 @@ Allows to manually trigger a re-configure of the device. Should only be used whe
 
 #### zigbee2mqtt/bridge/request/device/options
 
-Allows you to change device options on the fly. Existing options can be changed or new ones can be added. Payload format is `{"id": deviceID,"options": OPTIONS}` where deviceID can be the `ieee_address` or `friendly_name` of the device, example: `{"id": "my_bulb", "options":{"transition":1}}`. Response will be `{"data":{"from":{"retain":false},"to":{"retain":false,"transition":1},"id":"my_bulb"},"status":"ok"}`.
-
+Allows you to change device options on the fly. Existing options can be changed or new ones can be added. Payload format is `{"id": deviceID,"options": OPTIONS}` where deviceID can be the `ieee_address` or `friendly_name` of the device, example: `{"id": "my_bulb", "options":{"transition":1}}`. Response will be `{"data":{"from":{"retain":false},"to":{"retain":false,"transition":1},"id":"my_bulb","restart_required":false},"status":"ok"}`. Some options may require restarting Zigbee2MQTT, in this case `restart_required` is set to `true`. Note that `restart_required` is also published to `zigbee2mqtt/bridge/info`. Use `zigbee2mqtt/bridge/request/restart` to restart Zigbee2MQTT.
 
 #### zigbee2mqtt/bridge/request/device/rename
 
@@ -359,7 +376,7 @@ Notes:
 - Not all devices support the Zigbee configure reporting command (e.g. Xiaomi WSDCGQ11LM temperature/humidity sensors don't support it)
 - If configure reporting fails for a battery powered device make sure to wake it up right before sending the command.
 - The `reportable_change` value depends on the unit of the attribute, e.g. for temperature 100 means in general 1°C of change.
-
+- To specify options, e.g. the manufactuerCode use e.g. `{"id":"my_bulb","cluster":"genLevelCtrl","attribute":"currentLevel","minimum_report_interval":5,"maximum_report_interval":10,"reportable_change":10,"options":{"manufacturerCode":1234}}`
 
 ### Group
 
@@ -379,10 +396,11 @@ Adds a group. Allowed payloads are `{"friendly_name": NAME, "id": NUMBER}` or `N
 
 Allows you to change the `friendly_name` of a group on the fly. Payload format is `{"from": groupID, "to": groupID}` where groupID can be the `groupID` or `friendly_name` of the group, example: `{"from": "my_group", "to": "my_group_new_name"}`. Response will be `{"data":{"from":"my_group","to":"my_group_new_name"},"status":"ok"}`.
 
+In case you are using Home Assistant discovery and also want to update the entity ID according to this new name, send e.g. `{"from": "my_group", "to": "my_group_new_name","homeassistant_rename":true}`.
 
 #### zigbee2mqtt/bridge/request/group/options
 
-Allows you to change group options on the fly. Existing options can be changed or new ones can be added. Payload format is `{"id": groupID,"options": OPTIONS}` where groupID can be the `group_ID` or `friendly_name` of the group, example: `{"id": "my_group", "options":{"transition":1}}`. Response will be `{"data":{"from":{"retain":false},"to":{"retain":false,"transition":1},"id":"my_group"},"status":"ok"}`.
+Allows you to change group options on the fly. Existing options can be changed or new ones can be added. Payload format is `{"id": groupID,"options": OPTIONS}` where groupID can be the `group_ID` or `friendly_name` of the group, example: `{"id": "my_group", "options":{"transition":1}}`. Response will be `{"data":{"from":{"retain":false},"to":{"retain":false,"transition":1},"id":"my_group","restart_required":false},"status":"ok"}`. Some options may require restarting Zigbee2MQTT, in this case `restart_required` is set to `true`. Note that `restart_required` is also published to `zigbee2mqtt/bridge/info`. Use `zigbee2mqtt/bridge/request/restart` to restart Zigbee2MQTT.
 
 
 #### zigbee2mqtt/bridge/request/group/members/add

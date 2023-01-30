@@ -1,6 +1,6 @@
 ---
 title: "Dresden Elektronik Mega23M12 control via MQTT"
-description: "Integrate your Dresden Elektronik Mega23M12 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Dresden Elektronik Mega23M12 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | Mega23M12  |
-| Vendor  | Dresden Elektronik  |
+| Vendor  | [Dresden Elektronik](/supported-devices/#v=Dresden%20Elektronik)  |
 | Description | ZigBee Light Link wireless electronic ballast |
 | Exposes | light (state, brightness, color_temp, color_temp_startup, color_xy), light (state, brightness), linkquality |
 | Picture | ![Dresden Elektronik Mega23M12](https://www.zigbee2mqtt.io/images/devices/Mega23M12.jpg) |

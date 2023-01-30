@@ -1,6 +1,6 @@
 ---
 title: "ORVIBO SN10ZW control via MQTT"
-description: "Integrate your ORVIBO SN10ZW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your ORVIBO SN10ZW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-06-10T16:45:59Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SN10ZW  |
-| Vendor  | ORVIBO  |
+| Vendor  | [ORVIBO](/supported-devices/#v=ORVIBO)  |
 | Description | Occupancy sensor |
 | Exposes | occupancy, battery_low, tamper, battery, linkquality |
 | Picture | ![ORVIBO SN10ZW](https://www.zigbee2mqtt.io/images/devices/SN10ZW.jpg) |

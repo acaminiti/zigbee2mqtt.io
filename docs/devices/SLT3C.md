@@ -1,6 +1,6 @@
 ---
 title: "Hive SLT3C control via MQTT"
-description: "Integrate your Hive SLT3C via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Hive SLT3C via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-12-10T12:47:02Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SLT3C  |
-| Vendor  | Hive  |
+| Vendor  | [Hive](/supported-devices/#v=Hive)  |
 | Description | Heating thermostat remote control |
 | Exposes | battery, linkquality |
 | Picture | ![Hive SLT3C](https://www.zigbee2mqtt.io/images/devices/SLT3C.jpg) |

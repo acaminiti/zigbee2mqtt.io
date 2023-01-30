@@ -1,6 +1,6 @@
 ---
 title: "HEIMAN HS3SA control via MQTT"
-description: "Integrate your HEIMAN HS3SA via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your HEIMAN HS3SA via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | HS3SA  |
-| Vendor  | HEIMAN  |
+| Vendor  | [HEIMAN](/supported-devices/#v=HEIMAN)  |
 | Description | Smoke detector |
 | Exposes | smoke, battery_low, battery, linkquality |
 | Picture | ![HEIMAN HS3SA](https://www.zigbee2mqtt.io/images/devices/HS3SA.jpg) |

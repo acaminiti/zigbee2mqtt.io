@@ -1,6 +1,6 @@
 ---
 title: "Lonsonho QS-Zigbee-S05-LN control via MQTT"
-description: "Integrate your Lonsonho QS-Zigbee-S05-LN via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Lonsonho QS-Zigbee-S05-LN via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-01T19:02:25Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | QS-Zigbee-S05-LN  |
-| Vendor  | Lonsonho  |
+| Vendor  | [Lonsonho](/supported-devices/#v=Lonsonho)  |
 | Description | 1 gang switch module with neutral wire |
 | Exposes | switch (state), linkquality |
 | Picture | ![Lonsonho QS-Zigbee-S05-LN](https://www.zigbee2mqtt.io/images/devices/QS-Zigbee-S05-LN.jpg) |

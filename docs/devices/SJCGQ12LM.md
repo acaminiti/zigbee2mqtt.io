@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi SJCGQ12LM control via MQTT"
-description: "Integrate your Xiaomi SJCGQ12LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Xiaomi SJCGQ12LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-06-10T16:45:59Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SJCGQ12LM  |
-| Vendor  | Xiaomi  |
+| Vendor  | [Xiaomi](/supported-devices/#v=Xiaomi)  |
 | Description | Aqara T1 water leak sensor |
 | Exposes | battery, water_leak, battery_low, tamper, voltage, linkquality |
 | Picture | ![Xiaomi SJCGQ12LM](https://www.zigbee2mqtt.io/images/devices/SJCGQ12LM.jpg) |

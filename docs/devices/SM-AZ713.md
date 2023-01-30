@@ -1,6 +1,6 @@
 ---
 title: "UseeLink SM-AZ713 control via MQTT"
-description: "Integrate your UseeLink SM-AZ713 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your UseeLink SM-AZ713 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-30T11:31:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SM-AZ713  |
-| Vendor  | UseeLink  |
+| Vendor  | [UseeLink](/supported-devices/#v=UseeLink)  |
 | Description | Smart water/gas valve |
 | Exposes | switch (state), linkquality |
 | Picture | ![UseeLink SM-AZ713](https://www.zigbee2mqtt.io/images/devices/SM-AZ713.jpg) |

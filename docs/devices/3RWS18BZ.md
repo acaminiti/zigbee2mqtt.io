@@ -1,6 +1,6 @@
 ---
 title: "Third Reality 3RWS18BZ control via MQTT"
-description: "Integrate your Third Reality 3RWS18BZ via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Third Reality 3RWS18BZ via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-07-01T18:17:29Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | 3RWS18BZ  |
-| Vendor  | Third Reality  |
+| Vendor  | [Third Reality](/supported-devices/#v=Third%20Reality)  |
 | Description | Water sensor |
 | Exposes | water_leak, battery_low, battery, voltage, linkquality |
 | Picture | ![Third Reality 3RWS18BZ](https://www.zigbee2mqtt.io/images/devices/3RWS18BZ.jpg) |
@@ -26,6 +26,9 @@ pageClass: device-page
 
 
 <!-- Notes END: Do not edit below this line -->
+
+## OTA updates
+This device supports OTA updates, for more information see [OTA updates](../guide/usage/ota_updates.md).
 
 
 

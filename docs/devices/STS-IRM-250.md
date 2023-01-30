@@ -1,6 +1,6 @@
 ---
 title: "SmartThings STS-IRM-250 control via MQTT"
-description: "Integrate your SmartThings STS-IRM-250 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your SmartThings STS-IRM-250 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | STS-IRM-250  |
-| Vendor  | SmartThings  |
+| Vendor  | [SmartThings](/supported-devices/#v=SmartThings)  |
 | Description | Motion sensor (2016 model) |
 | Exposes | temperature, occupancy, tamper, battery, linkquality |
 | Picture | ![SmartThings STS-IRM-250](https://www.zigbee2mqtt.io/images/devices/STS-IRM-250.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "CASAIA CTHS-317-ET control via MQTT"
-description: "Integrate your CASAIA CTHS-317-ET via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your CASAIA CTHS-317-ET via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | CTHS-317-ET  |
-| Vendor  | CASAIA  |
+| Vendor  | [CASAIA](/supported-devices/#v=CASAIA)  |
 | Description | Remote temperature probe on cable |
 | Exposes | temperature, battery_low, battery, linkquality |
 | Picture | ![CASAIA CTHS-317-ET](https://www.zigbee2mqtt.io/images/devices/CTHS-317-ET.jpg) |

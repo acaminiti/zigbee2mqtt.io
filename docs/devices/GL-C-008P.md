@@ -1,6 +1,6 @@
 ---
 title: "Gledopto GL-C-008P control via MQTT"
-description: "Integrate your Gledopto GL-C-008P via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Gledopto GL-C-008P via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-01T19:02:25Z
 pageClass: device-page
 ---
@@ -16,10 +16,11 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | GL-C-008P  |
-| Vendor  | Gledopto  |
+| Vendor  | [Gledopto](/supported-devices/#v=Gledopto)  |
 | Description | Zigbee LED Controller RGB+CCT (pro) |
-| Exposes | light (state, brightness, color_temp, color_temp_startup, color_xy, color_hs), effect, linkquality |
+| Exposes | light (state, brightness, color_temp, color_temp_startup, color_xy, color_hs), effect, power_on_behavior, linkquality |
 | Picture | ![Gledopto GL-C-008P](https://www.zigbee2mqtt.io/images/devices/GL-C-008P.jpg) |
+| White-label | Gledopto GL-C-001P, Gledopto GL-C-002P |
 
 
 <!-- Notes BEGIN: You can edit here. Add "## Notes" headline if not already present. -->
@@ -31,6 +32,17 @@ pageClass: device-page
 2. Now switch off and on within 2 seconds.
 3. Repeat off/on four times.
 4. Reset is done when the device is switched on in the fifth time and the light stays on after blinking 4 times
+
+### GL-C-001P
+The Gledopto GL-C-001P is a 5 in 1 smart LED controller which can identify itself as one of the 5 different Gledopto controllers (the indicator light colour matches the model):
+
+* [White] RGB+CCT: GL-C-008P  
+* [Yellow] RGBW: GL-C-007P 
+* [Blue] RGB: GL-C-003P 
+* [Green] CCT: GL-C-006P 
+* [Red] Dimmer: GL-C-009P 
+
+You can switch between the modes using the `Opt` button on the device. After switching modes Zigbee2MQTT will automatically detect the new mode. Note that during the pairing process the log message `identified as: Gledopto Zigbee LED Controller XXX`  might state  model that differs from currently selected one. You should wait for the log message `Detected Gledopto device mode change` that should follow shortly afterwards meaning that Zigbee2MQTT has recognized the currently selected mode.
 <!-- Notes END: Do not edit below this line -->
 
 ## OTA updates
@@ -96,6 +108,13 @@ Value will **not** be published in the state.
 It's not possible to read (`/get`) this value.
 To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"effect": NEW_VALUE}`.
 The possible values are: `blink`, `breathe`, `okay`, `channel_change`, `finish_effect`, `stop_effect`.
+
+### Power_on_behavior (enum)
+Controls the behavior when the device is powered on after power loss.
+Value can be found in the published state on the `power_on_behavior` property.
+To read (`/get`) the value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"power_on_behavior": ""}`.
+To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"power_on_behavior": NEW_VALUE}`.
+The possible values are: `off`, `on`, `toggle`, `previous`.
 
 ### Linkquality (numeric)
 Link quality (signal strength).

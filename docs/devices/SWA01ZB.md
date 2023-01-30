@@ -1,6 +1,6 @@
 ---
 title: "Feibit SWA01ZB control via MQTT"
-description: "Integrate your Feibit SWA01ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Feibit SWA01ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-04-08T17:49:06Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SWA01ZB  |
-| Vendor  | Feibit  |
+| Vendor  | [Feibit](/supported-devices/#v=Feibit)  |
 | Description | Water leakage sensor |
 | Exposes | water_leak, battery_low, tamper, battery, linkquality |
 | Picture | ![Feibit SWA01ZB](https://www.zigbee2mqtt.io/images/devices/SWA01ZB.jpg) |

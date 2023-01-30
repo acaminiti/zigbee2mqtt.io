@@ -1,6 +1,6 @@
 ---
 title: "iCasa ICZB-KPD14S control via MQTT"
-description: "Integrate your iCasa ICZB-KPD14S via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your iCasa ICZB-KPD14S via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-02-26T17:45:15Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ICZB-KPD14S  |
-| Vendor  | iCasa  |
+| Vendor  | [iCasa](/supported-devices/#v=iCasa)  |
 | Description | Zigbee 3.0 Keypad Pulse 4S |
 | Exposes | battery, action, linkquality |
 | Picture | ![iCasa ICZB-KPD14S](https://www.zigbee2mqtt.io/images/devices/ICZB-KPD14S.jpg) |
@@ -58,7 +58,7 @@ To disable the legacy integration add the following to your `configuration.yaml`
 
 * `legacy`: Set to false to disable the legacy integration (highly recommended), will change structure of the published payload (default true). The value must be `true` or `false`
 
-* `simulated_brightness`: Simulate a brightness value. If this device provides a brightness_move_up or brightness_move_down action it is possible to specify the update interval and delta. Note: will only work when legacy: false is set. Example:
+* `simulated_brightness`: Simulate a brightness value. If this device provides a brightness_move_up or brightness_move_down action it is possible to specify the update interval and delta. The action_brightness_delta indicates the delta for each interval.  Note: will only work when legacy: false is set. Example:
 ```yaml
 simulated_brightness:
   delta: 20 # delta per interval, default = 20

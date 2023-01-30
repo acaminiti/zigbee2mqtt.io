@@ -1,6 +1,6 @@
 ---
 title: "Nue / 3A LXN59-2S7LX1.0 control via MQTT"
-description: "Integrate your Nue / 3A LXN59-2S7LX1.0 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Nue / 3A LXN59-2S7LX1.0 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-07-20T23:08:11Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | LXN59-2S7LX1.0  |
-| Vendor  | Nue / 3A  |
+| Vendor  | [Nue / 3A](/supported-devices/#v=Nue%20%2F%203A)  |
 | Description | Smart light relay - 2 gang |
 | Exposes | switch (state), linkquality |
 | Picture | ![Nue / 3A LXN59-2S7LX1.0](https://www.zigbee2mqtt.io/images/devices/LXN59-2S7LX1.0.jpg) |

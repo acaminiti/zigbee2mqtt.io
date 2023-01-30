@@ -1,6 +1,6 @@
 ---
 title: "GE POTLK-WH02 control via MQTT"
-description: "Integrate your GE POTLK-WH02 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your GE POTLK-WH02 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-02-28T13:58:01Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | POTLK-WH02  |
-| Vendor  | GE  |
+| Vendor  | [GE](/supported-devices/#v=GE)  |
 | Description | Outlink smart remote outlet |
 | Exposes | switch (state), linkquality |
 | Picture | ![GE POTLK-WH02](https://www.zigbee2mqtt.io/images/devices/POTLK-WH02.jpg) |

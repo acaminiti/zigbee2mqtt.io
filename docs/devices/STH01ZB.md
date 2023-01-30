@@ -1,6 +1,6 @@
 ---
 title: "Feibit STH01ZB control via MQTT"
-description: "Integrate your Feibit STH01ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Feibit STH01ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-04-08T17:49:06Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | STH01ZB  |
-| Vendor  | Feibit  |
+| Vendor  | [Feibit](/supported-devices/#v=Feibit)  |
 | Description | Smart temperature & humidity Sensor |
 | Exposes | temperature, humidity, battery, linkquality |
 | Picture | ![Feibit STH01ZB](https://www.zigbee2mqtt.io/images/devices/STH01ZB.jpg) |

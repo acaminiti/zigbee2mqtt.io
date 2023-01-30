@@ -1,6 +1,6 @@
 ---
 title: "Visonic MCT-340 SMA control via MQTT"
-description: "Integrate your Visonic MCT-340 SMA via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Visonic MCT-340 SMA via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-11-09T18:37:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | MCT-340 SMA  |
-| Vendor  | Visonic  |
+| Vendor  | [Visonic](/supported-devices/#v=Visonic)  |
 | Description | Magnetic door & window contact sensor |
 | Exposes | contact, battery_low, tamper, temperature, battery, linkquality |
 | Picture | ![Visonic MCT-340 SMA](https://www.zigbee2mqtt.io/images/devices/MCT-340-SMA.jpg) |

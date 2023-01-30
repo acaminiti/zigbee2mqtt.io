@@ -1,6 +1,6 @@
 ---
 title: "Airam AIRAM-CTR.U control via MQTT"
-description: "Integrate your Airam AIRAM-CTR.U via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Airam AIRAM-CTR.U via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | AIRAM-CTR.U  |
-| Vendor  | Airam  |
+| Vendor  | [Airam](/supported-devices/#v=Airam)  |
 | Description | CTR.U remote |
 | Exposes | action, linkquality |
 | Picture | ![Airam AIRAM-CTR.U](https://www.zigbee2mqtt.io/images/devices/AIRAM-CTR.U.jpg) |

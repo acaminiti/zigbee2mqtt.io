@@ -1,6 +1,6 @@
 ---
 title: "Insta InstaRemote control via MQTT"
-description: "Integrate your Insta InstaRemote via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Insta InstaRemote via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-04-08T17:49:06Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | InstaRemote  |
-| Vendor  | Insta  |
+| Vendor  | [Insta](/supported-devices/#v=Insta)  |
 | Description | ZigBee Light Link wall/handheld transmitter |
 | Exposes | action, linkquality |
 | Picture | ![Insta InstaRemote](https://www.zigbee2mqtt.io/images/devices/InstaRemote.jpg) |

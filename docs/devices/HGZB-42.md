@@ -1,6 +1,6 @@
 ---
 title: "Nue / 3A HGZB-42 control via MQTT"
-description: "Integrate your Nue / 3A HGZB-42 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Nue / 3A HGZB-42 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | HGZB-42  |
-| Vendor  | Nue / 3A  |
+| Vendor  | [Nue / 3A](/supported-devices/#v=Nue%20%2F%203A)  |
 | Description | Smart light switch - 2 gang v2.0 |
 | Exposes | switch (state), linkquality |
 | Picture | ![Nue / 3A HGZB-42](https://www.zigbee2mqtt.io/images/devices/HGZB-42.jpg) |

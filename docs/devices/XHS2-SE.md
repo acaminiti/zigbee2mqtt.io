@@ -1,6 +1,6 @@
 ---
 title: "Sercomm XHS2-SE control via MQTT"
-description: "Integrate your Sercomm XHS2-SE via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Sercomm XHS2-SE via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-11-09T18:37:38Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | XHS2-SE  |
-| Vendor  | Sercomm  |
+| Vendor  | [Sercomm](/supported-devices/#v=Sercomm)  |
 | Description | Magnetic door & window contact sensor |
 | Exposes | contact, battery_low, tamper, temperature, battery, linkquality |
 | Picture | ![Sercomm XHS2-SE](https://www.zigbee2mqtt.io/images/devices/XHS2-SE.jpg) |

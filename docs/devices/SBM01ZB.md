@@ -1,6 +1,6 @@
 ---
 title: "Feibit SBM01ZB control via MQTT"
-description: "Integrate your Feibit SBM01ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Feibit SBM01ZB via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-04-08T17:49:06Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SBM01ZB  |
-| Vendor  | Feibit  |
+| Vendor  | [Feibit](/supported-devices/#v=Feibit)  |
 | Description | Human body movement sensor |
 | Exposes | occupancy, battery_low, tamper, battery, linkquality |
 | Picture | ![Feibit SBM01ZB](https://www.zigbee2mqtt.io/images/devices/SBM01ZB.jpg) |

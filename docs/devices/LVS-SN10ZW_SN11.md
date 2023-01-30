@@ -1,6 +1,6 @@
 ---
 title: "LivingWise LVS-SN10ZW_SN11 control via MQTT"
-description: "Integrate your LivingWise LVS-SN10ZW_SN11 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your LivingWise LVS-SN10ZW_SN11 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-09-08T21:16:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | LVS-SN10ZW_SN11  |
-| Vendor  | LivingWise  |
+| Vendor  | [LivingWise](/supported-devices/#v=LivingWise)  |
 | Description | Occupancy sensor |
 | Exposes | battery, occupancy, battery_low, tamper, linkquality |
 | Picture | ![LivingWise LVS-SN10ZW_SN11](https://www.zigbee2mqtt.io/images/devices/LVS-SN10ZW_SN11.jpg) |

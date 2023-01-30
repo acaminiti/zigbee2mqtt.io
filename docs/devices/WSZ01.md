@@ -1,6 +1,6 @@
 ---
 title: "J.XUAN WSZ01 control via MQTT"
-description: "Integrate your J.XUAN WSZ01 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your J.XUAN WSZ01 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-05-30T19:17:03Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | WSZ01  |
-| Vendor  | J.XUAN  |
+| Vendor  | [J.XUAN](/supported-devices/#v=J.XUAN)  |
 | Description | Wireless switch |
 | Exposes | action, battery, linkquality |
 | Picture | ![J.XUAN WSZ01](https://www.zigbee2mqtt.io/images/devices/WSZ01.jpg) |

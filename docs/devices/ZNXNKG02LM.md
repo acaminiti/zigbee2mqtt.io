@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi ZNXNKG02LM control via MQTT"
-description: "Integrate your Xiaomi ZNXNKG02LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Xiaomi ZNXNKG02LM via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-10-01T17:18:02Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ZNXNKG02LM  |
-| Vendor  | Xiaomi  |
+| Vendor  | [Xiaomi](/supported-devices/#v=Xiaomi)  |
 | Description | Aqara knob H1 (wireless) |
 | Exposes | battery, voltage, action, operation_mode, action_rotation_angle, action_rotation_angle_speed, action_rotation_percent, action_rotation_percent_speed, action_rotation_time, linkquality |
 | Picture | ![Xiaomi ZNXNKG02LM](https://www.zigbee2mqtt.io/images/devices/ZNXNKG02LM.jpg) |
@@ -32,10 +32,6 @@ pageClass: device-page
 *[How to use device type specific configuration](../guide/configuration/devices-groups.md#specific-device-options)*
 
 * `legacy`: Set to false to disable the legacy integration (highly recommended), will change structure of the published payload (default true). The value must be `true` or `false`
-
-* `temperature_precision`: Number of digits after decimal point for temperature, takes into effect on next report of device. The value must be a number with a minimum value of `0` and with a with a maximum value of `3`
-
-* `temperature_calibration`: Calibrates the temperature value (absolute offset), takes into effect on next report of device. The value must be a number.
 
 
 ## Exposes

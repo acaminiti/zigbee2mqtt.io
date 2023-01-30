@@ -1,6 +1,6 @@
 ---
 title: "TuYa TS1101_dimmer_module_1ch control via MQTT"
-description: "Integrate your TuYa TS1101_dimmer_module_1ch via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your TuYa TS1101_dimmer_module_1ch via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-12-31T16:51:16
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | TS1101_dimmer_module_1ch  |
-| Vendor  | TuYa  |
+| Vendor  | [TuYa](/supported-devices/#v=TuYa)  |
 | Description | Zigbee dimmer module 1 channel |
 | Exposes | light (state, brightness, min_brightness), linkquality |
 | Picture | ![TuYa TS1101_dimmer_module_1ch](https://www.zigbee2mqtt.io/images/devices/TS1101_dimmer_module_1ch.jpg) |

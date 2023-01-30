@@ -1,6 +1,6 @@
 ---
 title: "Trust ZCTS-808 control via MQTT"
-description: "Integrate your Trust ZCTS-808 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Trust ZCTS-808 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | ZCTS-808  |
-| Vendor  | Trust  |
+| Vendor  | [Trust](/supported-devices/#v=Trust)  |
 | Description | Wireless contact sensor |
 | Exposes | contact, battery_low, tamper, battery, linkquality |
 | Picture | ![Trust ZCTS-808](https://www.zigbee2mqtt.io/images/devices/ZCTS-808.jpg) |

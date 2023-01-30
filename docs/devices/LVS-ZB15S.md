@@ -1,6 +1,6 @@
 ---
 title: "LivingWise LVS-ZB15S control via MQTT"
-description: "Integrate your LivingWise LVS-ZB15S via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your LivingWise LVS-ZB15S via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-09-08T21:16:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | LVS-ZB15S  |
-| Vendor  | LivingWise  |
+| Vendor  | [LivingWise](/supported-devices/#v=LivingWise)  |
 | Description | ZigBee smart in-wall switch |
 | Exposes | switch (state), linkquality |
 | Picture | ![LivingWise LVS-ZB15S](https://www.zigbee2mqtt.io/images/devices/LVS-ZB15S.jpg) |

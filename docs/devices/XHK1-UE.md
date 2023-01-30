@@ -1,6 +1,6 @@
 ---
 title: "Universal Electronics Inc XHK1-UE control via MQTT"
-description: "Integrate your Universal Electronics Inc XHK1-UE via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Universal Electronics Inc XHK1-UE via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-09-01T18:11:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | XHK1-UE  |
-| Vendor  | Universal Electronics Inc  |
+| Vendor  | [Universal Electronics Inc](/supported-devices/#v=Universal%20Electronics%20Inc)  |
 | Description | Xfinity security keypad |
 | Exposes | battery, voltage, occupancy, battery_low, tamper, presence, contact, temperature, action_code, action_transaction, action_zone, action, linkquality |
 | Picture | ![Universal Electronics Inc XHK1-UE](https://www.zigbee2mqtt.io/images/devices/XHK1-UE.jpg) |

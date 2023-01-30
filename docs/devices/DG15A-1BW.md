@@ -1,6 +1,6 @@
 ---
 title: "Leviton DG15A-1BW control via MQTT"
-description: "Integrate your Leviton DG15A-1BW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Leviton DG15A-1BW via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-08-01T20:41:55Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | DG15A-1BW  |
-| Vendor  | Leviton  |
+| Vendor  | [Leviton](/supported-devices/#v=Leviton)  |
 | Description | Indoor Decora smart Zigbee 3.0 certified plug-in outlet |
 | Exposes | switch (state), linkquality |
 | Picture | ![Leviton DG15A-1BW](https://www.zigbee2mqtt.io/images/devices/DG15A-1BW.jpg) |

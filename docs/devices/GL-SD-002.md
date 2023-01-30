@@ -1,6 +1,6 @@
 ---
 title: "Gledopto GL-SD-002 control via MQTT"
-description: "Integrate your Gledopto GL-SD-002 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Gledopto GL-SD-002 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-12-31T16:51:16
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | GL-SD-002  |
-| Vendor  | Gledopto  |
+| Vendor  | [Gledopto](/supported-devices/#v=Gledopto)  |
 | Description | Zigbee 3.0 smart home switch |
 | Exposes | switch (state), linkquality |
 | Picture | ![Gledopto GL-SD-002](https://www.zigbee2mqtt.io/images/devices/GL-SD-002.jpg) |

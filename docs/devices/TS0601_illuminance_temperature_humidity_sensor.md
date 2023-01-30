@@ -1,6 +1,6 @@
 ---
 title: "TuYa TS0601_illuminance_temperature_humidity_sensor control via MQTT"
-description: "Integrate your TuYa TS0601_illuminance_temperature_humidity_sensor via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your TuYa TS0601_illuminance_temperature_humidity_sensor via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-11-30T20:10:17
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | TS0601_illuminance_temperature_humidity_sensor  |
-| Vendor  | TuYa  |
+| Vendor  | [TuYa](/supported-devices/#v=TuYa)  |
 | Description | Illuminance, temperature & humidity sensor |
 | Exposes | temperature, humidity, illuminance_lux, battery, linkquality |
 | Picture | ![TuYa TS0601_illuminance_temperature_humidity_sensor](https://www.zigbee2mqtt.io/images/devices/TS0601_illuminance_temperature_humidity_sensor.jpg) |

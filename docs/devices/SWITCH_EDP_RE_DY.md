@@ -1,6 +1,6 @@
 ---
 title: "EDP SWITCH EDP RE:DY control via MQTT"
-description: "Integrate your EDP SWITCH EDP RE:DY via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your EDP SWITCH EDP RE:DY via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2019-07-22T20:08:17Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SWITCH EDP RE:DY  |
-| Vendor  | EDP  |
+| Vendor  | [EDP](/supported-devices/#v=EDP)  |
 | Description | re:dy switch |
 | Exposes | switch (state), linkquality |
 | Picture | ![EDP SWITCH EDP RE:DY](https://www.zigbee2mqtt.io/images/devices/SWITCH-EDP-RE-DY.jpg) |

@@ -1,6 +1,6 @@
 ---
 title: "HEIMAN HS1VS-EF control via MQTT"
-description: "Integrate your HEIMAN HS1VS-EF via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your HEIMAN HS1VS-EF via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-01T19:02:25Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | HS1VS-EF  |
-| Vendor  | HEIMAN  |
+| Vendor  | [HEIMAN](/supported-devices/#v=HEIMAN)  |
 | Description | Vibration sensor |
 | Exposes | vibration, battery_low, tamper, battery, linkquality |
 | Picture | ![HEIMAN HS1VS-EF](https://www.zigbee2mqtt.io/images/devices/HS1VS-EF.jpg) |

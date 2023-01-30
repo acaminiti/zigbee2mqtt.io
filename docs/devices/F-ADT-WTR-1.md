@@ -1,6 +1,6 @@
 ---
 title: "SmartThings F-ADT-WTR-1 control via MQTT"
-description: "Integrate your SmartThings F-ADT-WTR-1 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your SmartThings F-ADT-WTR-1 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2021-05-30T19:17:03Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | F-ADT-WTR-1  |
-| Vendor  | SmartThings  |
+| Vendor  | [SmartThings](/supported-devices/#v=SmartThings)  |
 | Description | ADT water leak detector |
 | Exposes | temperature, water_leak, battery_low, battery, linkquality |
 | Picture | ![SmartThings F-ADT-WTR-1](https://www.zigbee2mqtt.io/images/devices/F-ADT-WTR-1.jpg) |

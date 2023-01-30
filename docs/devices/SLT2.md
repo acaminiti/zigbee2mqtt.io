@@ -1,6 +1,6 @@
 ---
 title: "Hive SLT2 control via MQTT"
-description: "Integrate your Hive SLT2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Hive SLT2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-05-19T20:48:40Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | SLT2  |
-| Vendor  | Hive  |
+| Vendor  | [Hive](/supported-devices/#v=Hive)  |
 | Description | Heating thermostat remote control |
 | Exposes | battery, linkquality |
 | Picture | ![Hive SLT2](https://www.zigbee2mqtt.io/images/devices/SLT2.jpg) |

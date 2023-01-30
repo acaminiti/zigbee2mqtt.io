@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi WXKG02LM_rev2 control via MQTT"
-description: "Integrate your Xiaomi WXKG02LM_rev2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendors bridge or gateway."
+description: "Integrate your Xiaomi WXKG02LM_rev2 via Zigbee2MQTT with whatever smart home infrastructure you are using without the vendor's bridge or gateway."
 addedAt: 2020-12-30T11:31:00Z
 pageClass: device-page
 ---
@@ -16,7 +16,7 @@ pageClass: device-page
 |     |     |
 |-----|-----|
 | Model | WXKG02LM_rev2  |
-| Vendor  | Xiaomi  |
+| Vendor  | [Xiaomi](/supported-devices/#v=Xiaomi)  |
 | Description | Aqara double key wireless wall switch (2018 model) |
 | Exposes | battery, action, voltage, linkquality |
 | Picture | ![Xiaomi WXKG02LM_rev2](https://www.zigbee2mqtt.io/images/devices/WXKG02LM_rev2.jpg) |
